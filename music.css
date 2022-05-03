@@ -2,8 +2,18 @@
     font-family: 'OldEnglish' ;
     src: url(fonts/ghosthey-Regular.ttf) format('truetype');
 }
+
+.homelogo{
+    
+    position:sticky;
+    align-content: center;
+    text-align: center;
+
+}
 body{
     background: black;
+    background-image: url('DarkWater1.jpg');
+    background-size: cover;
 }
 
 h1{
@@ -13,19 +23,20 @@ h1{
 }
 
 .bandcamp {
-    position: relative;
+    
 }
 .bandrow1{
-background-color: blueviolet;
+
 position: relative;
+left:200;
 
 }
 .unseen-heaven {
 position:absolute;
-border: 2px solid white;
+
 top:0;
 left:0;
-background-color: brown;
+
 }
 
 .heavenbandcamp {
@@ -36,8 +47,9 @@ background-color: brown;
 .as-above{
 position:absolute;
 top:0;
-left:640;
-background-color: aqua;
+left: 506px;
+
+
 
 }
 
