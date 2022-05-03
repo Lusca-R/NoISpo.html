@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'OldEnglish' ;
+    src: url(fonts/ghosthey-Regular.ttf) format('truetype');
+}
+
+.homelogo{
+    
+    position:sticky;
+    align-content: center;
+    text-align: center;
+
+}
+body{
+    background: black;
+    background-image: url('DarkWater1.jpg');
+    background-size: cover;
+}
+
+.noispostatementvid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
