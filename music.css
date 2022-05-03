@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'OldEnglish' ;
+    src: url(fonts/ghosthey-Regular.ttf) format('truetype');
+}
+body{
+    background: black;
+}
+
+h1{
+    color:white;
+    font-family: 'OldEnglish', sans-serif;
+    font-size: 40;
+}
+
+.bandcamp {
+    position: relative;
+}
+.bandrow1{
+background-color: blueviolet;
+position: relative;
+
+}
+.unseen-heaven {
+position:absolute;
+border: 2px solid white;
+top:0;
+left:0;
+background-color: brown;
+}
+
+.heavenbandcamp {
+    display: flex;
+    justify-content: center;
+}
+
+.as-above{
+position:absolute;
+top:0;
+left:640;
+background-color: aqua;
+
+}
+
+.as-above-bandcamp{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.noispo-logo {
+ position:fixed;
+}

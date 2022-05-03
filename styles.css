@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'OldEnglish' ;
+    src: url(fonts/ghosthey-Regular.ttf) format('truetype');
+}
 body {
     background: black;
 }
@@ -7,3 +11,13 @@ video {
     margin-top: 0%;
   }
 
+  h1{
+      color: white;
+      font-family: 'OldEnglish', sans-serif;
+      font-size: 40;
+  }
+
+
+p { 
+    font-family:Arial, Helvetica, sans-serif ;
+}
