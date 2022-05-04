@@ -15,7 +15,7 @@
 }
 .homelogo{
     
-    background-color: black;
+
     position:relative;
     align-content: center;
     text-align: center;
@@ -30,18 +30,43 @@
 
 
 body{
-    background: black;
+    background:black;
     background-size: cover;
 }
 
 h1{
     color:white;
     font-family: 'OldEnglish', sans-serif;
-    font-size: 100;
+    font-size: 70;
 }
 
 p {
     color: white;
     font-family: "Serif";
     font-size: 20;
+}
+
+.video{
+position:absolute;
+}
+
+.photo{
+position: absolute;
+left:300;
+}
+
+.music{
+position:absolute;
+left:600;
+}
+
+.aboutme{
+position:absolute;
+left:900;
+
+}
+
+.fashion{
+position:absolute;
+left:1300;
 }
