@@ -1,3 +1,47 @@
+@font-face {
+    font-family: 'OldEnglish' ;
+    src: url(fonts/ghosthey-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Serif' ;
+    src: url(fonts/Norman-Regular.otf) format('truetype');
+
+}
+
+.Header{
+    
+}
+.homelogo{
+    
+    background-color: black;
+    position:relative;
+    align-content: center;
+    text-align: center;
+
+}
+
+.insta {
+    position: absolute;
+    left:1700;
+    top:25;
+}
+
+
 body{
     background: black;
+    background-size: cover;
+}
+
+h1{
+    color:white;
+    font-family: 'OldEnglish', sans-serif;
+    font-size: 100;
+}
+
+p {
+    color: white;
+    font-family: "Serif";
+    font-size: 20;
 }
