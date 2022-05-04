@@ -32,4 +32,15 @@ p {
     color: white;
     font-family: "Serif";
     font-size: 30;
-    
+}
+
+.ariesTitle{
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+.aries {
+    position: relative;
+    left:200;
+    width:1520;
+}

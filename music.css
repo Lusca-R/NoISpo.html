@@ -18,7 +18,9 @@ body{
 }
 
 h1{
-     k
+    color:white;
+    font-family: 'OldEnglish', sans-serif;
+    font-size: 40;
 }
 
 .bandcamp {
