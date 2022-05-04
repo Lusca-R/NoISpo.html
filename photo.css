@@ -9,14 +9,26 @@
     src: url(fonts/Norman-Regular.otf) format('truetype');
 
 }
+
+.Header{
+    
+}
 .homelogo{
     
     background-color: black;
-    position:sticky;
+    position:relative;
     align-content: center;
     text-align: center;
 
 }
+
+.insta {
+    position: absolute;
+    left:1700;
+    top:25;
+}
+
+
 body{
     background: black;
     background-size: cover;
@@ -31,16 +43,26 @@ h1{
 p {
     color: white;
     font-family: "Serif";
-    font-size: 30;
+    font-size: 20;
 }
 
 .ariesTitle{
     position: relative;
     align-content: center;
     text-align: center;
+    height:150;
 }
 .aries {
     position: relative;
     left:200;
     width:1520;
+}
+
+.ariesDesc {
+    position: relative;
+    top:0;
+    width: 750;
+    left:580;
+    align-content: center;
+    text-align: center;
 }

@@ -10,9 +10,15 @@
     text-align: center;
 
 }
+
+.insta {
+    position: absolute;
+    left:1700;
+    top:25;
+}
+
 body{
     background: black;
-    background-image: url('DarkWater1.jpg');
     background-size: cover;
 }
 
