@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'OldEnglish' ;
+    src: url(fonts/ghosthey-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Serif' ;
+    src: url(fonts/Norman-Regular.otf) format('truetype');
+
+}
+.homelogo{
+    
+    background-color: black;
+    position:sticky;
+    align-content: center;
+    text-align: center;
+
+}
+body{
+    background: black;
+    background-image: url('DarkWater1.jpg');
+    background-size: cover;
+}
+
+h1{
+    color:white;
+    font-family: 'OldEnglish', sans-serif;
+    font-size: 100;
+}
+
+p {
+    color: white;
+    font-family: "Serif";
+    font-size: 30;
+    
+}
+
+.anime{
+    position: relative;
+
+   
+}
+
+.animeTitle {
+  
+    align-content: center;
+    text-align: center;
+}
+
+.bttb{
+    position:absolute;
+    top:0;
+    left:200;
+}
+
+.adoreme{
+    position: absolute;
+    left: 798;
+    top:0;
+    
+
+}
+
+.acab {
+    position:absolute;
+    left:1396;
+    top:0;
+}
+
+.animeDesc {
+    position: absolute;
+    top:400;
+    width:1520;
+    left:200;
+}
