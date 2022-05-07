@@ -31,7 +31,8 @@
 
 body{
     background: black;
-    background-size: cover;
+   
+    
 }
 
 h1{
@@ -43,7 +44,7 @@ h1{
 p {
     color: white;
     font-family: "Serif";
-    font-size: 20;
+    font-size: 30;
 }
 
 .ariesTitle{
