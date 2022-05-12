@@ -11,17 +11,15 @@
 }
 
 .homelogo{
-   
-    position:relative;
     align-content: center;
     text-align: center;
 
 }
 
 .insta {
-    position: absolute;
-    left:1700;
-    top:25;
+    position: relative;
+    float: right;
+    top: -80px;
 }
 
 
