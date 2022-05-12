@@ -14,6 +14,7 @@
 .Header{
     
 }
+
 .homelogo{
     
 
@@ -29,8 +30,13 @@
     top:25;
 }
 
-
+*{
+    margin:0;
+   
+}
 body{
+    margin:0;
+
     background:black;
     background-size: cover;
 }
