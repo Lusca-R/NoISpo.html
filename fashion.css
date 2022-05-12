@@ -17,6 +17,10 @@
     text-align: center;
 
 }
+html{
+    min-width: 1700;
+    position:relative;
+}
 body{
    
     background-image: url('DarkWater1.jpg');

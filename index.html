@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nothing is Poetic</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <div class="Header">
   <div class="homelogo"> 
@@ -18,7 +18,27 @@
   </div>
 </div>
 <body>
-  
+    <section>
+        <div class="text">
+       <h2>Nothing | is | Poetic | </h2>
+   </div>
+   </section>
+
+   <script>
+       const text =  document.querySelector('.text');
+       text.innerHTML = text.textContent.replace(/\S/g,"<span>$&</span>");
+
+       const element = document.querySelectorAll('span');
+       for(let i = 0; i < element.length;i++){
+           element[i].style.transform = "rotate("+i*20+"deg)"
+       }
+
+      document.addEventListener("mousemove", function(e){
+          text.style.left= e.pageX + 'px';
+          text.style.top = e.pageY + 'px';
+      })
+
+   </script>
   <div class="art">
     <div class="video">
         <a href="video.html"><h1>Video</h1></a>
@@ -39,11 +59,14 @@
     <div class="fashion">
         <a href="fashion.html"><h1>Fashion</h1></a>
     </div>
+    <div class="contactme">
+        <a href="contantme.html"><h1>Contact Me</h1></a>
+    </div>
 </div>
  
 <video width="1700" height="900" autoplay loop>
   <source src="https://raw.githubusercontent.com/Lusca-R/NothingIsPoetic/main/noispo-init-vid-comp.mp4" type="video/mp4">
-Your browser does not support the video tag.s
+Your browser does not support the video tag
 </video> 
 
 

@@ -2,7 +2,10 @@
     font-family: 'OldEnglish' ;
     src: url(fonts/ghosthey-Regular.ttf) format('truetype');
 }
-
+html{
+    min-width: 1700;
+    position:relative;
+}
 .homelogo{
     
     background-color: black;

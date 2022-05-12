@@ -10,8 +10,9 @@
 
 }
 
-.Header{
-    
+html{
+    min-width: 1700;
+    position:relative;
 }
 .homelogo{
     

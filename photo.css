@@ -10,29 +10,30 @@
 
 }
 
-.Header{
-    
+html{
+    min-width: 1700;
+    position:relative;
+}
+*{
+    text-align: center;
 }
 .homelogo{
     
     background-color: black;
     position:relative;
-    align-content: center;
-    text-align: center;
-
+    margin: 0 auto;
 }
 
 .insta {
-    position: absolute;
-    left:1700;
-    top:25;
+    position: relative;
+    text-align: right;
+    top:-80px
 }
 
 
 body{
-    background: black;
+    background: black
    
-    
 }
 
 h1{
@@ -49,21 +50,22 @@ p {
 
 .ariesTitle{
     position: relative;
-    align-content: center;
-    text-align: center;
+    margin: 0 auto;
     height:150;
+    padding:30px;
 }
-.aries {
-    position: relative;
-    left:200;
-    width:1520;
-}
+
 
 .ariesDesc {
     position: relative;
-    top:0;
     width: 750;
-    left:580;
-    align-content: center;
-    text-align: center;
+    margin: 0 auto;
+
 }
+
+.aries {
+    position: relative;
+    width:1520;
+    margin: 0 auto;
+}
+
