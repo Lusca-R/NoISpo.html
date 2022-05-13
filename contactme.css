@@ -30,9 +30,20 @@ html{
 
 
 h1{
-    color:white;
+    color:rgb(255, 255, 255);
     font-family: 'OldEnglish', sans-serif;
-    font-size: 100;
+    font-size: 80;
+}
+.contact{
+    position:absolute;
+    left:760;
+    width:400;
+    top:100;
+}
+.message
+{
+    position: absolute;
+    width:500;
 }
 
 p {
