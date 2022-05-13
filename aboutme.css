@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'OldEnglish' ;
+    src: url(fonts/ghosthey-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Serif' ;
+    src: url(fonts/Norman-Regular.otf) format('truetype');
+
+}
+html{
+    min-width: 1700;
+    position:relative;
+}
+
+.homelogo{
+    
+
+    position:absolute;
+    align-content: center;
+    text-align: center;
+    top:0;
+    left:910;
+
+}
+
+.insta {
+    position: absolute;
+    text-align: right;
+    top: -80px;
+    right:20;
+    top:20;
+}
+
+*{
+    margin:0;
+   
+}
+body{
+    margin:0;
+
+    background: white;
+    background-size: cover;
+}
+
+h1{
+    color:black;
+    font-family: "Serif";
+    font-size: 50;
+} 
+
+h2{
+    color:black;
+    font-family: "Serif";
+    font-size: 30;
+} 
+p {
+    color: black;
+    font-family: "Serif";
+    font-size: 20;
+}
+
+.name{
+    position: absolute;
+text-align: center;
+justify-content: center;
+top:300;
+width:700;
+left:610;
+}
+
+.nike{
+    position: absolute;
+    left:1400;
+    top:150;
+    width:300;
+}
+
+.masc{
+    position: absolute;
+    left:220;
+    top:150;
+    width:300;
+}
+
+.statement{
+    position: absolute;
+    width:800;
+    text-align: center;
+    justify-content: center;
+    left:560;
+    top:500;
+    border: 2px solid black;
+}
+
+.quotes{
+    font-family: "Serif";
+    position: absolute;
+    width:300;
+    text-align: center;
+    justify-content: center;
+    left:1400;
+    top:500;
+    border: 2px solid black;
+}
+
+.accolade{
+    font-family: "Serif";
+    position: absolute;
+    width:300;
+    text-align: center;
+    justify-content: center;
+    left:220;
+    top:500;
+    border: 2px solid black;
+}
