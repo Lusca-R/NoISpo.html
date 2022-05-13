@@ -1,18 +1,5 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="test.css">
-</head>
-<body>
-<script src="three.js"></script>
-<script src="three.min.js"></script>
-<script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
-<script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/examples/js/SimplexNoise.js'></script>
-<script src='https://jeromeetienne.github.io/threex.terrain/threex.terrain.js'></script>
-<script>var renderer	= new THREE.WebGLRenderer({
+
+var renderer	= new THREE.WebGLRenderer({
     antialias	: true
 });
 /* Fullscreen */
@@ -69,10 +56,4 @@ requestAnimationFrame(function animate(nowMsec){
     onRenderFcts.forEach(function(onRenderFct){
         onRenderFct(deltaMsec/1000, nowMsec/1000)
     })
-})</script>
-
-
-   
-</body>
-</html>
-
+})

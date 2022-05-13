@@ -49,23 +49,30 @@ p {
 }
 
 .ariesTitle{
-    position: relative;
+    position: absolute;
     margin: 0 auto;
-    height:150;
-    padding:30px;
+    height:1;
+    top:0;
+    width:940;
+    left:470;
 }
 
 
 .ariesDesc {
-    position: relative;
+    position: absolute;
+    
     width: 750;
     margin: 0 auto;
+    top:240;
+    left:585;
 
 }
 
 .aries {
-    position: relative;
+    position: absolute;
     width:1520;
     margin: 0 auto;
+    top:500;
+    left:200;
 }
 

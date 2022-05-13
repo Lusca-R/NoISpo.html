@@ -10,12 +10,16 @@
     src: url(fonts/Norman-Regular.otf) format('truetype');
 
 }
-body {
-    margin: 0;
-    padding: 0;
-    background: #111;
-    overflow: hidden;
+
+html{
+  min-width: 1700;
+  position:relative;
+}
+  body{
+    margin: 0px; background-color: #222222; overflow: hidden;
   }
+  
+
 
   h2 {
     font-family: 'OldEnglish', sans-serif;

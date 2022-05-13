@@ -26,8 +26,10 @@ body{
 }
 
 .noispostatementvid {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    top:120;
+    left:110;
 }

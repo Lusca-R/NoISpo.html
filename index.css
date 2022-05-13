@@ -54,32 +54,37 @@ p {
 }
 
 .video{
-position:relative;
+position:absolute;
 }
 
 .photo{
-position: relative;
+position: absolute;
+left:250;
 
 }
 
 .music{
-position:relative;
+position:absolute;
+left: 500;
 
 }
 
 .aboutme{
-position:relative;
+position:absolute;
+left: 750;
 
 
 }
 
 .fashion{
-position:relative;
+position:absolute;
+left: 1140;
 
 }
 
 .contactme{
-    position: relative;
+    position: absolute;
+    left: 1450;
 }
 
 
@@ -94,6 +99,7 @@ video {
   h2 {
     font-family: 'OldEnglish', sans-serif;
   }
+
 *{
   margin: 0;
   padding:0px;
@@ -133,9 +139,9 @@ section .text{
 
 }
 section .text span{
-  top:-200px;
+  top:-100px;
   position: absolute;
   
   display: inline-block;
-  transform-origin: 0 200px;
+  transform-origin: 0 100px;
 }
