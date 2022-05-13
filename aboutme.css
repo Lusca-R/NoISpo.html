@@ -91,6 +91,7 @@ left:610;
     justify-content: center;
     left:560;
     top:500;
+    padding: 10;
     border: 2px solid black;
 }
 
@@ -102,6 +103,7 @@ left:610;
     justify-content: center;
     left:1400;
     top:500;
+    padding: 10;
     border: 2px solid black;
 }
 
@@ -113,5 +115,6 @@ left:610;
     justify-content: center;
     left:220;
     top:500;
+    padding: 10;
     border: 2px solid black;
 }
