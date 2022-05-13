@@ -28,6 +28,7 @@ html{
     position: relative;
     text-align: right;
     top: -80px;
+    right:20;
 }
 
 *{
@@ -55,36 +56,40 @@ p {
 
 .video{
 position:absolute;
+top:120;
+left:50;
 }
 
 .photo{
 position: absolute;
-left:250;
+left:300;
+top:120;
 
 }
 
 .music{
 position:absolute;
-left: 500;
-
+left: 550;
+top:120;
 }
 
 .aboutme{
 position:absolute;
-left: 750;
-
+left: 800;
+top:120;
 
 }
 
 .fashion{
 position:absolute;
-left: 1140;
-
+left: 1190;
+top:120;
 }
 
 .contactme{
     position: absolute;
-    left: 1400;
+    left: 1450;
+    top:120;
 }
 
 
