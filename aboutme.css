@@ -75,6 +75,7 @@ left:610;
     left:1400;
     top:150;
     width:300;
+    border: 2px solid black;
 }
 
 .masc{
@@ -82,6 +83,7 @@ left:610;
     left:220;
     top:150;
     width:300;
+    border: 2px solid black;
 }
 
 .statement{
