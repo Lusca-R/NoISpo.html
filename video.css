@@ -9,6 +9,13 @@ html{
     position:relative;
 }
 
+h1{
+    color:white;
+    font-family: 'OldEnglish';
+    display: block;
+    text-align: center;
+    font-size: 60;
+}
 
 .homelogo{
     display:block;
@@ -42,3 +49,4 @@ body{
     top:100;
     
 }
+

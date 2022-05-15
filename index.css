@@ -161,4 +161,5 @@ section .text span{
   top:-150;
   width:100%;
   max-width: 1800;
+  min-width:1200;
 }
