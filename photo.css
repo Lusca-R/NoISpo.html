@@ -18,7 +18,9 @@ html{
     text-align: center;
 }
 .homelogo{
-    
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
     background-color: black;
     position:relative;
     margin: 0 auto;
@@ -49,30 +51,39 @@ p {
 }
 
 .ariesTitle{
-    position: absolute;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
     margin: 0 auto;
     height:1;
-    top:0;
-    width:940;
-    left:470;
+    top:-1000;
+    width:100%;
+    max-width:940;
+    position: relative;
 }
 
 
 .ariesDesc {
-    position: absolute;
-    
-    width: 750;
+    position: relative;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:100%;
+    max-width: 750;
     margin: 0 auto;
-    top:240;
-    left:585;
+    top:-880;
 
 }
 
 .aries {
-    position: absolute;
-    width:1520;
+    position: relative;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:100%;
+    max-width:1520;
     margin: 0 auto;
-    top:500;
-    left:200;
+    height:auto;
+    top:-860;
 }
 
