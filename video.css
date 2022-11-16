@@ -3,18 +3,36 @@
     src: url(fonts/ghosthey-Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Serif' ;
+    src: url(fonts/Norman-Regular.otf) format('truetype');
+}
+
 
 html{
     min-width: 1700;
     position:relative;
 }
 
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+  }
+
 h1{
     color:white;
     font-family: 'OldEnglish';
     display: block;
     text-align: center;
-    font-size: 60;
+    font-size: 80px;
+
+    margin:0px;
+    padding:0px;
 }
 
 .homelogo{
@@ -38,15 +56,36 @@ body{
     background-size: cover;
 }
 
-.noispostatementvid {
-   
-    position:absolute;
-    display:block;
-    text-align: center;
-    width: 100%;
-    height: 98%;
-    margin: 0 auto;
-    top:100;
+
+.column-of-videos{
+
+}
+
+.statement-video-content{
     
+}
+.noispostatementvid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.statement-video{
+    margin-left: 10px;
+}
+
+.statement-description{
+    color:white;
+    
+    font-family: "Serif";
+    font-size:30px;
+    border-style:solid;
+    border-color: white;
+    border-width:2px;
+    padding:10px;
+    margin-right:10px;
 }
 
