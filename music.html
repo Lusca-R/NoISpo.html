@@ -1,14 +1,16 @@
-<html>
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Music</title>
-        
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="music.css">
-
-    <div class="Header">
+    <title>Music</title>
+</head>
+<body>
+    
+    <div class="header">
+        <div></div>
         <div class="homelogo"> 
             <a href="index.html">
                 <img src = "HomeLogo.png" width="100" height="100" >
@@ -20,85 +22,54 @@
             </a>
         </div>
     </div>
-    <body>
-        
-    <script src="three.js"></script>
-    <script src="three.min.js"></script>
-    <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
-    <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/examples/js/SimplexNoise.js'></script>
-    <script src='https://jeromeetienne.github.io/threex.terrain/threex.terrain.js'></script>
-    <script>var renderer	= new THREE.WebGLRenderer({
-        antialias	: true
-    });
-    /* Fullscreen */
-    renderer.setSize( window.innerWidth, window.innerHeight );
-    /* Append to HTML */
-    document.body.appendChild( renderer.domElement );
-    var onRenderFcts= [];
-    var scene	= new THREE.Scene();
-    var camera	= new THREE.PerspectiveCamera(25, window.innerWidth /    window.innerHeight, 0.01, 1000);
-    /* Play around with camera positioning */
-    camera.position.z = 15; 
-    camera.position.y = 2;
-    /* Fog provides depth to the landscape*/
-    scene.fog = new THREE.Fog(0x000, 0, 45);
-    ;(function(){
-        var light	= new THREE.AmbientLight( 0x202020 )
-        scene.add( light )
-        var light	= new THREE.DirectionalLight('white', 5)
-        light.position.set(0.5, 0.0, 2)
-        scene.add( light )
-        var light	= new THREE.DirectionalLight('white', 0.75*2)
-        light.position.set(-0.5, -0.5, -2)
-        scene.add( light )		
-    })()
-    var heightMap	= THREEx.Terrain.allocateHeightMap(256,256)
-    THREEx.Terrain.simplexHeightMap(heightMap)	
-    var geometry	= THREEx.Terrain.heightMapToPlaneGeometry(heightMap)
-    THREEx.Terrain.heightMapToVertexColor(heightMap, geometry)
-    /* Wireframe built-in color is white, no need to change that */
-    var material	= new THREE.MeshBasicMaterial({
-        wireframe: true
-    });
-    var mesh	= new THREE.Mesh( geometry, material );
-    scene.add( mesh );
-    mesh.lookAt(new THREE.Vector3(0,1,0));
-    /* Play around with the scaling */
-    mesh.scale.y	= 3.5;
-    mesh.scale.x	= 3;
-    mesh.scale.z	= 0.20;
-    mesh.scale.multiplyScalar(10);
-    /* Play around with the camera */
-    onRenderFcts.push(function(delta, now){
-        mesh.rotation.z += 0.2 * delta;	
-    })
-    onRenderFcts.push(function(){
-        renderer.render( scene, camera );		
-    })
-    var lastTimeMsec= null
-    requestAnimationFrame(function animate(nowMsec){
-        requestAnimationFrame( animate );
-        lastTimeMsec	= lastTimeMsec || nowMsec-1000/60
-        var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec)
-        lastTimeMsec	= nowMsec
-        onRenderFcts.forEach(function(onRenderFct){
-            onRenderFct(deltaMsec/1000, nowMsec/1000)
-        })
-    })</script>
+  
+
+<div class="bandcamp-section"> 
 <div class="bandcamp"> 
-    <div class="bandrow1">
-    <div class="unseen-heaven">
-        <h1>The Unseen Heaven Ep</h1>
-        <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3603425106/size=large/bgcol=333333/linkcol=e32c14/minimal=true/transparent=true/" seamless><a href="https://nothingispoetic.bandcamp.com/album/the-unseen-heaven-ep">The Unseen Heaven EP by Nothing Is Poetic</a></iframe>
+
+    <div class="bandcamp-info">
+        <div class="title">
+            <h1>Gang of Theys</h1>
+        </div>
+       <div class="bandcamp-music-player">
+        <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/track=2835509007/size=large/bgcol=333333/linkcol=e32c14/minimal=true/transparent=true/" seamless><a href="https://nothingispoetic.bandcamp.com/track/gang-of-theys">Gang of Theys by Nothing Is Poetic</a></iframe></div>
+        
     </div>
-    <div class="as-above">
-        <h1>As Above, So Below</h1>
+
+    <div class="bandcamp-info">
+        <div class="title">
+            <h1>Stages of a Suicidalist</h1>
+        </div>
+       <div class="bandcamp-music-player">
+        <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=951314594/size=large/bgcol=333333/linkcol=e32c14/minimal=true/transparent=true/" seamless><a href="https://nothingispoetic.bandcamp.com/album/stages-of-a-suicidalist">Stages of a Suicidalist by Nothing Is Poetic</a></iframe>
+        </div>
+    </div>
+
+    <div class="bandcamp-info">
+        <div class="title">
+            <h1>The Unseen Heaven Ep</h1>
+        </div>
+       <div class="bandcamp-music-player">
+        <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3603425106/size=large/bgcol=333333/linkcol=e32c14/minimal=true/transparent=true/" seamless><a href="https://nothingispoetic.bandcamp.com/album/the-unseen-heaven-ep">The Unseen Heaven EP by Nothing Is Poetic</a></iframe>
+        </div>
+    </div>
+
+    <div class="bandcamp-info">
+        <div class="title">
+            <h1>As Above So Below</h1>
+        </div>
+       <div class="bandcamp-music-player">
         <iframe style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/track=2981868350/size=large/bgcol=333333/linkcol=e32c14/minimal=true/transparent=true/" seamless><a href="https://nothingispoetic.bandcamp.com/track/as-above-so-below">As Above, So Below by Nothing Is Poetic</a></iframe>
     </div>
+    </div>
+
+   
+    
 </div>
 </div>   
+</div>
+    
+
 </body>
-
-
-
 </html>
+

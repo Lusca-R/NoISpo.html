@@ -10,90 +10,62 @@
 
 }
 
-html{
-    min-width: 1700;
-    position:relative;
-}
-*{
-    text-align: center;
-}
-.homelogo{
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-color: black;
-    position:relative;
-    margin: 0 auto;
-}
 
-.insta {
-    position: relative;
-    text-align: right;
-    top:-80px
-}
-
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
 
 body{
-    background: black
+    background: black;
    
 }
 
 h1{
     color:white;
     font-family: 'OldEnglish', sans-serif;
-    font-size: 100;
+    font-size: 80px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    
 }
 
 p {
     color: white;
     font-family: "Serif";
-    font-size: 30;
+    font-size: 30px;
+    margin-top:0;
+    margin-bottom:0;
+    width:1000px;
+    display: inline-block;
+    
 }
 
 .rowan{
-    position: absolute;
-    width:100%;
- 
-   top:100;
-   height:auto;
-   width:100%;
+    
   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
  }
 .ariesTitle{
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    margin: 0 auto;
-height:50;
-    top:0;
-    width:100%;
-    max-width:940;
-    position: relative;
+    
 }
 
 
 .ariesDesc {
-    position: relative;
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    width:100%;
-    max-width: 750;
-    margin: 0 auto;
-    top:80;
-    height: auto;
-
+    margin-top:20px;
+   
 }
 
 .aries {
-    position: relative;
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    width:100%;
-    max-width:1520;
-    margin: 0 auto;
-    height:auto;
-    top:100;
+ 
 }
 
