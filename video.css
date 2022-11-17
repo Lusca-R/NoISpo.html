@@ -20,8 +20,8 @@ html{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-   background-image: url(Photo-Assets/noispoyung.jpeg);
-  background-position: bottom;
+   /*background-image: url(Photo-Assets/noispoyung.jpeg);
+  background-position: bottom;*/
   }
 
 h1{
