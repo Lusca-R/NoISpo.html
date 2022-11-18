@@ -58,29 +58,32 @@ body{
 
 
 .column-of-videos{
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+  row-gap: 100px;
 
 }
 
-.statement-video-content{
+.video-block{
     
    
-
-  background-size: cover;
 }
-.noispostatementvid {
+.video-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
+    margin-left:100px;
+    margin-right:100px;
     
 }
 
-.statement-video{
+.video{
     margin-left: 10px;
 }
 
-.statement-description{
+.description{
     color:white;
     
     font-family: "Serif";
