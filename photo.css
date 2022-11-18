@@ -35,7 +35,7 @@ h1{
     
 }
 
-p {
+ .description{
     color: white;
     font-family: "Serif";
     font-size: 30px;
@@ -53,11 +53,9 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom:30px;
  
  }
-.ariesTitle{
-    
-}
 
 
 .ariesDesc {
@@ -65,7 +63,19 @@ p {
    
 }
 
-.aries {
- 
-}
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:100px;
+    margin-right:100px;
+    padding-top:20px;
+    padding-bottom:30px;
+  }
+  
+  .footer-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+  }
