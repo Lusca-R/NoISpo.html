@@ -64,6 +64,10 @@ p {
     border-width: 2px;
     border-color: white;
     margin:10px;
+    background-image: url(Photo-Assets/headdown.jpg);
+    background-size: 80%;
+    background-position: center;
+    background-repeat:no-repeat;
    
 }
 
