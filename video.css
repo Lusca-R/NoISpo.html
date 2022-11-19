@@ -53,7 +53,9 @@ h1{
 
 body{
     background: black;
-    background-size: cover;
+    
+
+    background-size: contain;
 }
 
 

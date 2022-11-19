@@ -11,7 +11,6 @@
 
 }
 
-
 .homelogo{
     
 
@@ -29,6 +28,7 @@ body{
     margin:0;
 
     background:black;
+    background-image: url(Photo-Assets/VI-IV-Full-Dull.png);
     background-size: cover;
 }
 
@@ -42,9 +42,14 @@ p {
   margin-bottom:0;
     color: white;
     font-family: 'OldEnglish', sans-serif;
-    font-size: 40;
+    font-size: 50px;
+    text-shadow: 7px 1px 1px black;
+    
 }
 
+a{
+  text-decoration: none;
+}
 .header{
   display:flex;
   flex-direction: row;
@@ -97,6 +102,7 @@ width:100px;
 
 .photo{
   width:100px;
+ 
 }
 
 .music{
