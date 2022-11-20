@@ -35,7 +35,9 @@ h1{
     font-family: 'OldEnglish', sans-serif;
     font-size: 100px;
 }
-
+.insta{
+    margin-right:30px;
+}
 p {
     background:black;
     color: white;

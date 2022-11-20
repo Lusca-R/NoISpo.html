@@ -1,3 +1,6 @@
+
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,70 +12,9 @@
 </head>
 
 <body>
-    <script src="three.js"></script>
-    <script src="three.min.js"></script>
-    <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
-    <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/examples/js/SimplexNoise.js'></script>
-    <script src='https://jeromeetienne.github.io/threex.terrain/threex.terrain.js'></script>
-    <script>var renderer	= new THREE.WebGLRenderer({
-        antialias	: true
-    });
-    /* Fullscreen */
-    renderer.setSize( window.innerWidth, window.innerHeight );
-    /* Append to HTML */
-    document.body.appendChild( renderer.domElement );
-    var onRenderFcts= [];
-    var scene	= new THREE.Scene();
-    var camera	= new THREE.PerspectiveCamera(25, window.innerWidth /    window.innerHeight, 0.01, 1000);
-    /* Play around with camera positioning */
-    camera.position.z = 15; 
-    camera.position.y = 5;
-    /* Fog provides depth to the landscape*/
-    scene.fog = new THREE.Fog(0x000, 0, 45);
-    ;(function(){
-        var light	= new THREE.AmbientLight( 0x202020 )
-        scene.add( light )
-        var light	= new THREE.DirectionalLight('white', 5)
-        light.position.set(0.5, 0.0, 2)
-        scene.add( light )
-        var light	= new THREE.DirectionalLight('white', 0.75*2)
-        light.position.set(-0.5, -0.5, -2)
-        scene.add( light )		
-    })()
-    var heightMap	= THREEx.Terrain.allocateHeightMap(256,256)
-    THREEx.Terrain.simplexHeightMap(heightMap)	
-    var geometry	= THREEx.Terrain.heightMapToPlaneGeometry(heightMap)
-    THREEx.Terrain.heightMapToVertexColor(heightMap, geometry)
-    /* Wireframe built-in color is white, no need to change that */
-    var material	= new THREE.MeshBasicMaterial({
-        wireframe: true
-    });
-    var mesh	= new THREE.Mesh( geometry, material );
-    scene.add( mesh );
-    mesh.lookAt(new THREE.Vector3(0,1,0));
-    /* Play around with the scaling */
-    mesh.scale.y	= 3.5;
-    mesh.scale.x	= 3;
-    mesh.scale.z	= 0.20;
-    mesh.scale.multiplyScalar(10);
-    /* Play around with the camera */
-    onRenderFcts.push(function(delta, now){
-        mesh.rotation.z += 0.3 * delta;	
-    })
-    onRenderFcts.push(function(){
-        renderer.render( scene, camera );		
-    })
-    var lastTimeMsec= null
-    requestAnimationFrame(function animate(nowMsec){
-        requestAnimationFrame( animate );
-        lastTimeMsec	= lastTimeMsec || nowMsec-1000/60
-        var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec)
-        lastTimeMsec	= nowMsec
-        onRenderFcts.forEach(function(onRenderFct){
-            onRenderFct(deltaMsec/1000, nowMsec/1000)
-        })
-    })</script>
-    <div class="Header">
+    
+    <div class="header">
+        <div></div>
     <div class="homelogo"> 
         <a href="index.html">
             <img src = "Photo-Assets/black-noispologo.png" width="100" height="100" >
@@ -84,9 +26,9 @@
         </a>
     </div>
   </div>
-
+<!--
   <div class="allcontent">
-  <div class="name">
+    <div class="name">
     <h1 STYLE="letter-spacing:5px">Lusca Nike Waters</h1>
     <h2 STYLE="letter-spacing:5px">Nothingispoetic@gmail.com</h2>
 </div>
@@ -115,6 +57,51 @@
             <li STYLE="letter-spacing:4px">Ellen Gussman Adelson Prize [2020]</li>
         
         </ul>
+    </div>
+</div>
+
+-->
+
+
+<div>
+    <div class="row">
+        <div>
+            <img class="nike" src="photo-assets/masc-nike.jpg" alt="">
+        </div>
+
+        <div class="info">   
+            <div class="name">  
+                <h1>
+                    Lusca Nike Waters
+                </h1>
+            </div>
+            <div class="email">
+                <h2>
+                    Nothingispoetic@gmail.com
+                </h2>
+            </div>
+          
+
+        </div>
+
+        <div >
+            <img class= "nike" src="Photo-assets/Nike.jpg" alt="">
+        </div>
+
+        <div class="border" >
+            <h1>Accolades</h1>
+            <p>Ellen Gussman Adelon Prize [2020]</p>
+        </div>
+
+        <div class="border">
+            <p>Nothing is Poetic is not just an artistic display, it is a thought process. I explore my own intrepetations of truth and perception of reality through my multi-modal artwork. I'm a Music Producer/Engineer, Fashion Designer, Poet, Sculpter, Photographer and Video Editor. Most of my work is focused on complex emotions and showing the complexity of those emotions. </p>
+        </div>
+
+        <div class="border" >
+            <h1>Quotes</h1>
+            <p>"If you relent in defining your own truth, others will define it for you"</p>
+            <p>"I don't think artistic genres should exist within a vaccum. Their beauties are one in the same, just transfered energy"</p>
+        </div>
     </div>
 </div>
 </body>

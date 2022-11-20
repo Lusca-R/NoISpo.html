@@ -9,34 +9,18 @@
     src: url(fonts/Norman-Regular.otf) format('truetype');
 
 }
-html{
-    min-width: 1700;
-    position:relative;
-}
 
-.homelogo{
-    
 
-    position:absolute;
-    align-content: center;
-    text-align: center;
-    top:0;
-    left:910;
+.header{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ 
 
 }
 
-.insta {
-    position: absolute;
-    text-align: right;
-    top: -80px;
-    right:20;
-    top:20;
-}
 
-*{
-    margin:0;
-   
-}
 body{
     margin:0;
 
@@ -47,76 +31,57 @@ body{
 h1{
     color:black;
     font-family: "Serif";
-    font-size: 50;
+    font-size: 50px;
 } 
 
 h2{
     color:black;
     font-family: "Serif";
-    font-size: 30;
+    font-size: 30px;
 } 
 p {
     color: black;
     font-family: "Serif";
-    font-size: 20;
+    font-size: 20px;
 }
 
-.name{
-    position: absolute;
-text-align: center;
-justify-content: center;
-top:300;
-width:700;
-left:610;
+
+
+
+
+
+
+.row{
+    display:grid;
+    grid-template-columns: 300px 1fr 300px;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-items: center;
+    align-items: bottom;
+
+    margin-top:50px;
+    margin-left:220px;
+    margin-right:220px;
+    
+    
 }
+
 
 .nike{
-    position: absolute;
-    left:1400;
-    top:150;
-    width:300;
+    width:300px;
     border: 2px solid black;
 }
 
-.masc{
-    position: absolute;
-    left:220;
-    top:150;
-    width:300;
-    border: 2px solid black;
+
+.info{
+    min-width:340px;
+
+
 }
 
-.statement{
-    position: absolute;
-    width:800;
-    text-align: center;
-    justify-content: center;
-    left:560;
-    top:500;
-    padding: 10;
-    border: 2px solid black;
-}
-
-.quotes{
-    font-family: "Serif";
-    position: absolute;
-    width:300;
-    text-align: center;
-    justify-content: center;
-    left:1400;
-    top:500;
-    padding: 10;
-    border: 2px solid black;
-}
-
-.accolade{
-    font-family: "Serif";
-    position: absolute;
-    width:300;
-    text-align: center;
-    justify-content: center;
-    left:220;
-    top:500;
-    padding: 10;
-    border: 2px solid black;
+.border{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    
 }

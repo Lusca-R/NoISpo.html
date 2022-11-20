@@ -17,7 +17,7 @@
 }
 
 .insta {
-    
+    margin-right:30px;
 }
 
 *{
@@ -91,6 +91,7 @@ display:flex;
 height:70px;
 padding-left: 100px;
 padding-right:100px;
+margin-bottom:30px;
 
 
 }
